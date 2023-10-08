@@ -7,12 +7,30 @@
 
 import SwiftUI
 
-struct ContextMenuVuew: View {
+struct ContextMenuView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack (alignment: .leading, spacing: 20) {
+            Image(systemName: "house.fill")
+                .font(.title)
+            Text("Swift")
+                .font(.headline)
+            Text("COntextMEnu")
+                .font(.subheadline)
+        }
+        .foregroundColor(.white)
+        .padding(20)
+        .background(Color.red.cornerRadius(20))
+        .contextMenu(ContextMenu(menuItems: {
+            Text("Menu Item 1")
+            Text("Menu Item 2")
+            Text("Menu Item 3")
+            Button("hello") {
+                
+            }
+        }))
     }
 }
 
 #Preview {
-    ContextMenuVuew()
+    ContextMenuView()
 }

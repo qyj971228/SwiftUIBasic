@@ -9,7 +9,28 @@ import SwiftUI
 
 struct SafeAreaView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            ForEach(0..<10) { index in
+                Text("Hello\(index)")
+                    .foregroundStyle(.white)
+                    .frame(height: 100, alignment: .top)
+                    .frame(maxWidth: .infinity)
+                    .background(.red)
+            }
+        }
+        .safeAreaInset(
+            edge: .top,
+            content: {
+                Color.clear.frame(height: 300)
+            }
+        )
+        .safeAreaInset(
+            edge: .bottom,
+            content: {
+                Color.clear.frame(height: 300)
+            }
+        )
+        .ignoresSafeArea()
     }
 }
 

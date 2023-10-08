@@ -7,12 +7,21 @@
 
 import SwiftUI
 
-struct Icons: View {
+struct IconsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(
+            systemName: "person.fill.badge.plus"
+        )
+        .renderingMode(.original)
+        .resizable()
+        .aspectRatio(contentMode: .fill)
+        .font(.system(size: 200))
+//        .foregroundStyle(.green)
+        .frame(width: 200,  height: 100)
+//        .clipped()
     }
 }
 
 #Preview {
-    Icons()
+    IconsView()
 }

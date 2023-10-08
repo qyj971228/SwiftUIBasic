@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct StepperView: View {
+    
+    @State var stepperValue: Int = 1
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            Stepper("stepper \(stepperValue)", value: $stepperValue)
+            Stepper("stepper \(stepperValue)") {
+                stepperValue += 10
+            } onDecrement: {
+                stepperValue -= 10
+            }
+        }
     }
 }
 

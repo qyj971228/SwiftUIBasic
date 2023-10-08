@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct ButtonsView: View {
+    
+    @State var button: String = "Hello, World!"
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            if button == "Hello, World!" {
+                button = "changed"
+            } else {
+                button = "Hello, World!"
+            }
+        } label: {
+            Text("\(button)".capitalized)
+                .foregroundStyle(.white)
+                .padding(20)
+                .background(
+                    Color.blue.cornerRadius(10).shadow(radius: 10)
+                )
+        }
     }
 }
 

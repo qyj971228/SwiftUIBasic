@@ -8,8 +8,28 @@
 import SwiftUI
 
 struct TernaryOperators: View {
+    
+    @State var isLoading: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Button {
+                isLoading.toggle()
+            } label: {
+                Text((isLoading ? "loading..." : "loaded").capitalized)
+                    .font(.largeTitle)
+                    .foregroundStyle(.white)
+                    .frame(width: 200, height: 100)
+                    .background(
+                        Rectangle()
+                            .fill(isLoading ? .red : .blue)
+                            .frame(width: 200, height: 100)
+                            .cornerRadius(20)
+                            .shadow(radius: 20)
+                    )
+            }
+        }
+        .frame(width: 200, height: 100)
     }
 }
 

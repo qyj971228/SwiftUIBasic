@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct ToggleView: View {
+    
+    @State var toggleOn = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Toggle(
+            isOn: $toggleOn, label: {
+                Text("Label")
+            }
+        )
+        .toggleStyle(SwitchToggleStyle(tint: .blue))
+        .padding()
+        .background(toggleOn ? Color.green.cornerRadius(10) : Color.red.cornerRadius(10))
+        .padding()
+        .animation(.easeInOut)
     }
 }
 

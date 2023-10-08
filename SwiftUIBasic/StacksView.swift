@@ -9,7 +9,39 @@ import SwiftUI
 
 struct StacksView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack (alignment: .leading, spacing: 0) {
+            Rectangle()
+                .fill(.red)
+                .frame(width: 120, height: 120)
+            Rectangle()
+                .fill(.green)
+                .frame(width: 110, height: 110)
+            Rectangle()
+                .fill(.blue)
+                .frame(width: 100, height: 100)
+        }
+        HStack (alignment: .bottom, spacing: 0) {
+            Rectangle()
+                .fill(.red)
+                .frame(width: 120, height: 120)
+            Rectangle()
+                .fill(.green)
+                .frame(width: 110, height: 110)
+            Rectangle()
+                .fill(.blue)
+                .frame(width: 100, height: 100)
+        }
+        ZStack (alignment: .bottom) {
+            Rectangle()
+                .fill(.red)
+                .frame(width: 120, height: 120)
+            Rectangle()
+                .fill(.green)
+                .frame(width: 110, height: 110)
+            Rectangle()
+                .fill(.blue)
+                .frame(width: 100, height: 100)
+        }
     }
 }
 

@@ -7,12 +7,41 @@
 
 import SwiftUI
 
-struct Transitions: View {
+struct TransitionsView: View {
+    
+    @State var showView = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack(alignment: .bottom, content: {
+            VStack {
+                Button {
+//                    withAnimation(.easeInOut) {
+                        showView.toggle()
+//                    }
+                } label: {
+                    Text("Button")
+                }
+                Spacer()
+            }
+            if showView {
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(height: UIScreen.main.bounds.height / 2)
+                    .opacity(showView ? 1 : 0)
+//                    .transition(.opacity.animation(.easeInOut))
+//                    .transition(.move(edge: .bottom))
+                    .transition(
+                        .asymmetric(
+                            insertion: .move(edge: .trailing),
+                            removal: .move(edge: .bottom)
+                        )
+                    )
+                    .animation(.easeInOut)
+            }
+        })
+        .ignoresSafeArea(edges: .bottom)
     }
 }
 
 #Preview {
-    Transitions()
+    TransitionsView()
 }

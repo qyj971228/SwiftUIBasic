@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct TabGesture: View {
+    
+    @State var tabCount = 0
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("tap to add: \(tabCount)".capitalized)
+            .background(
+                Rectangle()
+                    .fill(.blue)
+                    .frame(width: 200, height: 50)
+            )
+            .foregroundStyle(.white)
+            .onTapGesture {
+                tabCount += 1
+            }
     }
 }
 

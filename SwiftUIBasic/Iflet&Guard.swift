@@ -8,8 +8,41 @@
 import SwiftUI
 
 struct Iflet_Guard: View {
+    
+    @State var text: String = ""
+    
+    @State var isEmpty: Bool?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("\(text)")
+        }.onAppear(perform: {
+            load2()
+        })
+    }
+    
+//    func load() {
+//        if isEmpty == nil {
+//            text = "nil"
+//            return
+//        }
+//        if isEmpty == false {
+//            text = "false"
+//            return
+//        }
+//        text = "text"
+//    }
+    
+    func load2() {
+        guard isEmpty != nil else {
+            text = "nil"
+            return
+        }
+        guard isEmpty != false else {
+            text = "false"
+            return
+        }
+        text = "text"
     }
 }
 

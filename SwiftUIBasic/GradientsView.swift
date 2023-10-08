@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Gradients: View {
+struct GradientsView: View {
     var body: some View {
         RoundedRectangle(cornerRadius: 20)
             .fill(
@@ -36,5 +36,5 @@ struct Gradients: View {
 }
 
 #Preview {
-    Gradients()
+    GradientsView()
 }

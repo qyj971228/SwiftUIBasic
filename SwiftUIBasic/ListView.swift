@@ -8,8 +8,76 @@
 import SwiftUI
 
 struct ListView: View {
+    
+    @State var fruits: [String] = [
+        "apple", "banana"
+    ]
+    
+    @State var veggies: [String] = [
+        "tomato", "potato"
+    ]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                Section(
+                    header:
+                        HStack {
+                            Text("Fruits")
+                            Image(systemName: "flame.fill")
+                        }
+                        .font(.headline)
+                        .foregroundStyle(.orange)
+                ) {
+                    ForEach(fruits, id: \.self) { item in
+                        Text("\(item)".capitalized)
+                            .foregroundStyle(.secondary)
+                    }
+                    .onDelete(perform: delete)
+                    .onMove(perform: move)
+                    .listRowBackground(Color.red)
+//                    .swipeActions (edge: .trailing, allowsFullSwipe: false) {
+//                        Button(action: {
+//                            
+//                        }, label: {
+//                            Label("Pin", systemImage: "pin")
+//                        })
+//                        .tint(.yellow)
+//                        Button(action: {
+//                        }, label: {
+//                            Label("Delete", systemImage: "trash")
+//                        })
+//                        .tint(.red)
+//                    }
+                }
+                Section(header: Text("Veggies")) {
+                    ForEach(veggies, id: \.self) { item in
+                        Text("\(item)".capitalized)
+                    }
+                    .onDelete(perform: delete)
+                    .onMove(perform: move)
+                }
+            }
+//            .listStyle(InsetListStyle())
+            .navigationTitle("List")
+            .navigationBarItems(
+                leading: EditButton(),
+                trailing:
+                    Button(
+                        "Add",
+                        action: { fruits.append("coconut") }
+                    )
+            )
+            .accentColor(.red)
+        }
+    }
+    
+    func delete(atOffsets: IndexSet) {
+        fruits.remove(atOffsets: atOffsets)
+    }
+    
+    func move(fromOffsets: IndexSet, toOffset: Int) {
+        fruits.move(fromOffsets: fromOffsets, toOffset: toOffset)
     }
 }
 

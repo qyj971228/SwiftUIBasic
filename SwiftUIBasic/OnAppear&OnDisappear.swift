@@ -8,8 +8,30 @@
 import SwiftUI
 
 struct OnAppear_OnDisappear: View {
+    
+    @State var count = 1
+    @State var count2 = 1
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            ScrollView {
+                ForEach(0..<40) { index in
+                    LazyVStack {
+                        Text("\(index)")
+                            .onAppear(perform: {
+                                count += 1
+                            })
+                            .onDisappear(perform: {
+                                count2 += 1
+                            })
+                    }
+                }
+                .background(.red)
+                .navigationTitle("disappear\(count2) appear\(count)")
+            }
+            
+        }
+        
     }
 }
 
