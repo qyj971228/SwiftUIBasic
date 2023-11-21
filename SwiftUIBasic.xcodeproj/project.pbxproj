@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22701BEB2B0B0D45003A470D /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22701BEA2B0B0D45003A470D /* IntroView.swift */; };
+		22701BED2B0B0F46003A470D /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22701BEC2B0B0F46003A470D /* OnBoardingView.swift */; };
+		22701BEF2B0B58B6003A470D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22701BEE2B0B58B6003A470D /* ProfileView.swift */; };
 		22708C192ACFC47D00CDF7C5 /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22708C182ACFC47D00CDF7C5 /* ContextMenuView.swift */; };
 		22708C1B2ACFD5D300CDF7C5 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22708C1A2ACFD5D300CDF7C5 /* TextFieldView.swift */; };
 		22708C1D2ACFDA9E00CDF7C5 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22708C1C2ACFDA9E00CDF7C5 /* TextEditorView.swift */; };
@@ -54,10 +57,14 @@
 		22D57DB92AD0FFFA00174A33 /* OnAppear&OnDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D57DB82AD0FFFA00174A33 /* OnAppear&OnDisappear.swift */; };
 		22D57DBB2AD12B5800174A33 /* Iflet&Guard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D57DBA2AD12B5800174A33 /* Iflet&Guard.swift */; };
 		22D57DBD2AD130D000174A33 /* TabGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D57DBC2AD130D000174A33 /* TabGesture.swift */; };
-		22D57DC12AD1333200174A33 /* @StateObject&@ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D57DC02AD1333200174A33 /* @StateObject&@ObservableObject.swift */; };
+		22D57DC12AD1333200174A33 /* @StateObject&@ObservableObject&@EnviromentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D57DC02AD1333200174A33 /* @StateObject&@ObservableObject&@EnviromentObject.swift */; };
+		22D57DF22AD7FBC600174A33 /* @AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D57DF12AD7FBC600174A33 /* @AppStorageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22701BEA2B0B0D45003A470D /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		22701BEC2B0B0F46003A470D /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		22701BEE2B0B58B6003A470D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		22708C182ACFC47D00CDF7C5 /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
 		22708C1A2ACFD5D300CDF7C5 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		22708C1C2ACFDA9E00CDF7C5 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
@@ -107,7 +114,8 @@
 		22D57DB82AD0FFFA00174A33 /* OnAppear&OnDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnAppear&OnDisappear.swift"; sourceTree = "<group>"; };
 		22D57DBA2AD12B5800174A33 /* Iflet&Guard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Iflet&Guard.swift"; sourceTree = "<group>"; };
 		22D57DBC2AD130D000174A33 /* TabGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabGesture.swift; sourceTree = "<group>"; };
-		22D57DC02AD1333200174A33 /* @StateObject&@ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "@StateObject&@ObservableObject.swift"; sourceTree = "<group>"; };
+		22D57DC02AD1333200174A33 /* @StateObject&@ObservableObject&@EnviromentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "@StateObject&@ObservableObject&@EnviromentObject.swift"; sourceTree = "<group>"; };
+		22D57DF12AD7FBC600174A33 /* @AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "@AppStorageView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +129,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22701BE92B0B0B9A003A470D /* OnboardingViews */ = {
+			isa = PBXGroup;
+			children = (
+				22701BEA2B0B0D45003A470D /* IntroView.swift */,
+				22701BEC2B0B0F46003A470D /* OnBoardingView.swift */,
+				22701BEE2B0B58B6003A470D /* ProfileView.swift */,
+			);
+			path = OnboardingViews;
+			sourceTree = "<group>";
+		};
 		229922CF2ACE73DF0073A2D6 = {
 			isa = PBXGroup;
 			children = (
@@ -188,7 +206,9 @@
 				22D57DB82AD0FFFA00174A33 /* OnAppear&OnDisappear.swift */,
 				22D57DBA2AD12B5800174A33 /* Iflet&Guard.swift */,
 				22D57DBC2AD130D000174A33 /* TabGesture.swift */,
-				22D57DC02AD1333200174A33 /* @StateObject&@ObservableObject.swift */,
+				22D57DC02AD1333200174A33 /* @StateObject&@ObservableObject&@EnviromentObject.swift */,
+				22D57DF12AD7FBC600174A33 /* @AppStorageView.swift */,
+				22701BE92B0B0B9A003A470D /* OnboardingViews */,
 			);
 			path = SwiftUIBasic;
 			sourceTree = "<group>";
@@ -273,6 +293,7 @@
 			files = (
 				229923252ACF0C900073A2D6 /* ListView.swift in Sources */,
 				229922FF2ACEA8520073A2D6 /* SpacerView.swift in Sources */,
+				22701BED2B0B0F46003A470D /* OnBoardingView.swift in Sources */,
 				229923132ACEE8C60073A2D6 /* @BindingView.swift in Sources */,
 				22708C192ACFC47D00CDF7C5 /* ContextMenuView.swift in Sources */,
 				229922F32ACE8AC40073A2D6 /* IconsView.swift in Sources */,
@@ -284,10 +305,11 @@
 				229922FD2ACEA34A0073A2D6 /* PaddingView.swift in Sources */,
 				229922EF2ACE83DB0073A2D6 /* ColorsView.swift in Sources */,
 				2299231B2ACEF0830073A2D6 /* AnimationTimingView.swift in Sources */,
-				22D57DC12AD1333200174A33 /* @StateObject&@ObservableObject.swift in Sources */,
+				22D57DC12AD1333200174A33 /* @StateObject&@ObservableObject&@EnviromentObject.swift in Sources */,
 				229923052ACEB4AB0073A2D6 /* Scroll&LazyStacksView.swift in Sources */,
 				229922F72ACE90B80073A2D6 /* FrameView.swift in Sources */,
 				229923032ACEB04B0073A2D6 /* ForEachView.swift in Sources */,
+				22701BEB2B0B0D45003A470D /* IntroView.swift in Sources */,
 				229922F92ACE92AF0073A2D6 /* Background&OverlayView.swift in Sources */,
 				229923272ACF1C1E0073A2D6 /* AlertView.swift in Sources */,
 				229922EB2ACE73EB0073A2D6 /* TextView.swift in Sources */,
@@ -301,6 +323,7 @@
 				2299231D2ACEF36F0073A2D6 /* TransitionsView.swift in Sources */,
 				22708C1D2ACFDA9E00CDF7C5 /* TextEditorView.swift in Sources */,
 				229923292ACF1F920073A2D6 /* ActionSheetView.swift in Sources */,
+				22701BEF2B0B58B6003A470D /* ProfileView.swift in Sources */,
 				22D57DB12AD0F42E00174A33 /* StepperView.swift in Sources */,
 				229922F52ACE8D050073A2D6 /* ImagesView.swift in Sources */,
 				229923152ACEE95F0073A2D6 /* ConditionalStatements.swift in Sources */,
@@ -315,6 +338,7 @@
 				2299230B2ACEDDF60073A2D6 /* ButtonsView.swift in Sources */,
 				229923232ACF04E60073A2D6 /* NavigationView&Link.swift in Sources */,
 				2299230F2ACEE3590073A2D6 /* ExtractFuncs&Views.swift in Sources */,
+				22D57DF22AD7FBC600174A33 /* @AppStorageView.swift in Sources */,
 				22D57DB32AD0F5CF00174A33 /* SliderView.swift in Sources */,
 				22708C212ACFE03600CDF7C5 /* PickerView.swift in Sources */,
 			);

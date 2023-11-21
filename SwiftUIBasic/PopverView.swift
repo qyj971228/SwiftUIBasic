@@ -27,12 +27,12 @@ struct PopverView: View {
             /**
                 过渡适合元素出现或者删除时使用， 动画则适合在页面动作已有元素时使用
              */
-            // #2 transition
-//            if showPopver {
-//                PopContentTransition(show: $showPopver)
-//            }
-            // #3 animation
-            PopContentAnimation(show: $showPopver)
+//             #2 transition
+            if showPopver {
+                PopContentTransition(show: $showPopver)
+            }
+//             #3 animation
+//            PopContentAnimation(show: $showPopver)
         }
     }
 }

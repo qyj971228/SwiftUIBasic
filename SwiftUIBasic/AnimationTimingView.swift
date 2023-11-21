@@ -19,7 +19,7 @@ struct AnimationTimingView: View {
             VStack {
                 RoundedRectangle(cornerRadius: 20)
                     .frame(width: isAnimating ? 350 : 100, height: 100)
-                    .animation(.easeIn(duration: duration))
+                    .animation(.easeIn(duration: duration), value: isAnimating) // ios15之后建议开发者指定一个依赖，此以来改变时动画触发
                 RoundedRectangle(cornerRadius: 20)
                     .frame(width: isAnimating ? 350 : 100, height: 100)
                     .animation(.easeOut(duration: duration))

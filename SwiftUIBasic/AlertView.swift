@@ -38,11 +38,11 @@ struct AlertView: View {
         return Alert(
             title: Text("\(title)"),
             message: Text("\(message)"),
-//            primaryButton: .destructive(Text("Delete"), action: {
-//                backgroundColor = .red
-//            }),
-//            secondaryButton: .cancel(),
-            dismissButton: .default(Text("OK"))
+            primaryButton: .destructive(Text("Delete"), action: {
+                backgroundColor = .red
+            }),
+            secondaryButton: .cancel()
+//            dismissButton: .default(Text("OK"))
         )
     }
 }

@@ -16,7 +16,7 @@ struct AnimationsView: View {
         VStack {
             Button {
                 withAnimation(
-                    Animation.easeInOut.repeatCount(3, autoreverses: true)) {
+                    .easeInOut.repeatCount(3, autoreverses: true)) {
                     isLoading.toggle()
                 }
             } label: {

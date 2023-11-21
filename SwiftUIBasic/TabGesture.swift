@@ -14,7 +14,7 @@ struct TabGesture: View {
     var body: some View {
         Text("tap to add: \(tabCount)".capitalized)
             .background(
-                Rectangle()
+                RoundedRectangle(cornerRadius: 10)
                     .fill(.blue)
                     .frame(width: 200, height: 50)
             )
