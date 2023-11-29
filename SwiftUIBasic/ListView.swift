@@ -35,7 +35,7 @@ struct ListView: View {
                     }
                     .onDelete(perform: delete)
                     .onMove(perform: move)
-                    .listRowBackground(Color.red)
+//                    .listRowBackground(Color.red)
 //                    .swipeActions (edge: .trailing, allowsFullSwipe: false) {
 //                        Button(action: {
 //                            

@@ -33,12 +33,12 @@ struct TabView_PageTabViewStyle: View {
                 Text("Home")
             }
             .tag(1)
-        Text("this is Settings")
-            .tabItem {
-                Image(systemName: "gear")
-                Text("Settings")
-            }
-            .tag(2)
+            Text("this is Settings")
+                .tabItem {
+                    Image(systemName: "gear")
+                    Text("Settings")
+                }
+                .tag(2)
         }
         .background(.red)
         .tabViewStyle(.page)

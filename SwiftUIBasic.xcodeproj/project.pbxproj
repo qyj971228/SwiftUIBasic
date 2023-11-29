@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221A09BD2B0C5C0E003BECC2 /* BackgroundAndMaterialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A09BC2B0C5C0E003BECC2 /* BackgroundAndMaterialsView.swift */; };
+		221A09BF2B0C81FD003BECC2 /* TextSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A09BE2B0C81FD003BECC2 /* TextSelectionView.swift */; };
+		221A09C12B0C84ED003BECC2 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A09C02B0C84ED003BECC2 /* ButtonStyleView.swift */; };
+		221A09C32B0EEC04003BECC2 /* ListSwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A09C22B0EEC04003BECC2 /* ListSwipeActionsView.swift */; };
+		221A09C52B0EF33A003BECC2 /* TabViewBadgesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A09C42B0EF33A003BECC2 /* TabViewBadgesView.swift */; };
+		221A09C72B0EF3F2003BECC2 /* ListBadgesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A09C62B0EF3F2003BECC2 /* ListBadgesView.swift */; };
+		221A09C92B0EFCDF003BECC2 /* FocusStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A09C82B0EFCDF003BECC2 /* FocusStateView.swift */; };
+		221A09CB2B0F16E4003BECC2 /* KeyBoardCustomSubmitButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A09CA2B0F16E4003BECC2 /* KeyBoardCustomSubmitButtonView.swift */; };
+		221A09CD2B0F1C2F003BECC2 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A09CC2B0F1C2F003BECC2 /* NavigationStackView.swift */; };
+		224DA65B2B1629BF003150BD /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224DA65A2B1629BF003150BD /* GroupView.swift */; };
+		224DA65D2B162AC8003150BD /* AnimationsiOS16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224DA65C2B162AC8003150BD /* AnimationsiOS16.swift */; };
+		224DA65F2B16307F003150BD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224DA65E2B16307F003150BD /* MenuView.swift */; };
+		224DA6612B1632B2003150BD /* NativePopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224DA6602B1632B2003150BD /* NativePopoverView.swift */; };
 		22701BEB2B0B0D45003A470D /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22701BEA2B0B0D45003A470D /* IntroView.swift */; };
 		22701BED2B0B0F46003A470D /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22701BEC2B0B0F46003A470D /* OnBoardingView.swift */; };
 		22701BEF2B0B58B6003A470D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22701BEE2B0B58B6003A470D /* ProfileView.swift */; };
@@ -51,6 +64,7 @@
 		229923252ACF0C900073A2D6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229923242ACF0C900073A2D6 /* ListView.swift */; };
 		229923272ACF1C1E0073A2D6 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229923262ACF1C1E0073A2D6 /* AlertView.swift */; };
 		229923292ACF1F920073A2D6 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229923282ACF1F920073A2D6 /* ActionSheetView.swift */; };
+		229DC7662B0C4D3800B5BA64 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229DC7652B0C4D3800B5BA64 /* AsyncImageView.swift */; };
 		22D57DB12AD0F42E00174A33 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D57DB02AD0F42E00174A33 /* StepperView.swift */; };
 		22D57DB32AD0F5CF00174A33 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D57DB22AD0F5CF00174A33 /* SliderView.swift */; };
 		22D57DB52AD0F90F00174A33 /* TabView$PageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D57DB42AD0F90F00174A33 /* TabView$PageTabViewStyle.swift */; };
@@ -59,9 +73,27 @@
 		22D57DBD2AD130D000174A33 /* TabGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D57DBC2AD130D000174A33 /* TabGesture.swift */; };
 		22D57DC12AD1333200174A33 /* @StateObject&@ObservableObject&@EnviromentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D57DC02AD1333200174A33 /* @StateObject&@ObservableObject&@EnviromentObject.swift */; };
 		22D57DF22AD7FBC600174A33 /* @AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D57DF12AD7FBC600174A33 /* @AppStorageView.swift */; };
+		22EA26062B1432EB00C696E7 /* NavigationToolBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EA26052B1432EB00C696E7 /* NavigationToolBarView.swift */; };
+		22EA26092B14444800C696E7 /* ResizeableSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EA26082B14444800C696E7 /* ResizeableSheetView.swift */; };
+		22EA260B2B145E9B00C696E7 /* SafeAreaInsetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EA260A2B145E9B00C696E7 /* SafeAreaInsetsView.swift */; };
+		22F209E72B16DF19008167A4 /* AnyLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F209E62B16DF19008167A4 /* AnyLayoutView.swift */; };
+		22F209E92B16EF6B008167A4 /* ViewThatFitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F209E82B16EF6B008167A4 /* ViewThatFitsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		221A09BC2B0C5C0E003BECC2 /* BackgroundAndMaterialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndMaterialsView.swift; sourceTree = "<group>"; };
+		221A09BE2B0C81FD003BECC2 /* TextSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionView.swift; sourceTree = "<group>"; };
+		221A09C02B0C84ED003BECC2 /* ButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleView.swift; sourceTree = "<group>"; };
+		221A09C22B0EEC04003BECC2 /* ListSwipeActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActionsView.swift; sourceTree = "<group>"; };
+		221A09C42B0EF33A003BECC2 /* TabViewBadgesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBadgesView.swift; sourceTree = "<group>"; };
+		221A09C62B0EF3F2003BECC2 /* ListBadgesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBadgesView.swift; sourceTree = "<group>"; };
+		221A09C82B0EFCDF003BECC2 /* FocusStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateView.swift; sourceTree = "<group>"; };
+		221A09CA2B0F16E4003BECC2 /* KeyBoardCustomSubmitButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardCustomSubmitButtonView.swift; sourceTree = "<group>"; };
+		221A09CC2B0F1C2F003BECC2 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
+		224DA65A2B1629BF003150BD /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		224DA65C2B162AC8003150BD /* AnimationsiOS16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsiOS16.swift; sourceTree = "<group>"; };
+		224DA65E2B16307F003150BD /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		224DA6602B1632B2003150BD /* NativePopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePopoverView.swift; sourceTree = "<group>"; };
 		22701BEA2B0B0D45003A470D /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		22701BEC2B0B0F46003A470D /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		22701BEE2B0B58B6003A470D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -108,6 +140,7 @@
 		229923242ACF0C900073A2D6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		229923262ACF1C1E0073A2D6 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		229923282ACF1F920073A2D6 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
+		229DC7652B0C4D3800B5BA64 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		22D57DB02AD0F42E00174A33 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		22D57DB22AD0F5CF00174A33 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		22D57DB42AD0F90F00174A33 /* TabView$PageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView$PageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -116,6 +149,11 @@
 		22D57DBC2AD130D000174A33 /* TabGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabGesture.swift; sourceTree = "<group>"; };
 		22D57DC02AD1333200174A33 /* @StateObject&@ObservableObject&@EnviromentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "@StateObject&@ObservableObject&@EnviromentObject.swift"; sourceTree = "<group>"; };
 		22D57DF12AD7FBC600174A33 /* @AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "@AppStorageView.swift"; sourceTree = "<group>"; };
+		22EA26052B1432EB00C696E7 /* NavigationToolBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationToolBarView.swift; sourceTree = "<group>"; };
+		22EA26082B14444800C696E7 /* ResizeableSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeableSheetView.swift; sourceTree = "<group>"; };
+		22EA260A2B145E9B00C696E7 /* SafeAreaInsetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetsView.swift; sourceTree = "<group>"; };
+		22F209E62B16DF19008167A4 /* AnyLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutView.swift; sourceTree = "<group>"; };
+		22F209E82B16EF6B008167A4 /* ViewThatFitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,14 +202,19 @@
 				229922DB2ACE73DF0073A2D6 /* SwiftUIBasicApp.swift */,
 				229922DD2ACE73DF0073A2D6 /* ContentView.swift */,
 				229922EA2ACE73EB0073A2D6 /* TextView.swift */,
+				221A09BE2B0C81FD003BECC2 /* TextSelectionView.swift */,
 				229922EC2ACE7AF60073A2D6 /* ShapesView.swift */,
 				229922EE2ACE83DB0073A2D6 /* ColorsView.swift */,
 				229922F02ACE87510073A2D6 /* GradientsView.swift */,
 				229922F22ACE8AC40073A2D6 /* IconsView.swift */,
 				229922F42ACE8D050073A2D6 /* ImagesView.swift */,
+				229DC7652B0C4D3800B5BA64 /* AsyncImageView.swift */,
 				229922F62ACE90B80073A2D6 /* FrameView.swift */,
 				229922F82ACE92AF0073A2D6 /* Background&OverlayView.swift */,
+				221A09BC2B0C5C0E003BECC2 /* BackgroundAndMaterialsView.swift */,
 				229922FA2ACE988A0073A2D6 /* StacksView.swift */,
+				22F209E62B16DF19008167A4 /* AnyLayoutView.swift */,
+				22F209E82B16EF6B008167A4 /* ViewThatFitsView.swift */,
 				229922FC2ACEA34A0073A2D6 /* PaddingView.swift */,
 				229922FE2ACEA8520073A2D6 /* SpacerView.swift */,
 				229923002ACEABA50073A2D6 /* InitalizerView.swift */,
@@ -179,7 +222,9 @@
 				229923042ACEB4AB0073A2D6 /* Scroll&LazyStacksView.swift */,
 				229923062ACEB8210073A2D6 /* LazyGridView.swift */,
 				229923082ACED9D50073A2D6 /* SafeAreaView.swift */,
+				22EA260A2B145E9B00C696E7 /* SafeAreaInsetsView.swift */,
 				2299230A2ACEDDF60073A2D6 /* ButtonsView.swift */,
+				221A09C02B0C84ED003BECC2 /* ButtonStyleView.swift */,
 				2299230C2ACEE0900073A2D6 /* @StateView.swift */,
 				2299230E2ACEE3590073A2D6 /* ExtractFuncs&Views.swift */,
 				229923102ACEE6000073A2D6 /* ExtractSubviews.swift */,
@@ -188,21 +233,33 @@
 				229923162ACEEBED0073A2D6 /* TernaryOperators.swift */,
 				229923182ACEEDA90073A2D6 /* AnimationsView.swift */,
 				2299231A2ACEF0830073A2D6 /* AnimationTimingView.swift */,
+				224DA65C2B162AC8003150BD /* AnimationsiOS16.swift */,
 				2299231C2ACEF36F0073A2D6 /* TransitionsView.swift */,
 				2299231E2ACEF71B0073A2D6 /* SheetsView.swift */,
+				22EA26082B14444800C696E7 /* ResizeableSheetView.swift */,
 				229923202ACEFC930073A2D6 /* PopverView.swift */,
+				224DA6602B1632B2003150BD /* NativePopoverView.swift */,
 				229923222ACF04E60073A2D6 /* NavigationView&Link.swift */,
+				221A09CC2B0F1C2F003BECC2 /* NavigationStackView.swift */,
+				22EA26052B1432EB00C696E7 /* NavigationToolBarView.swift */,
 				229923242ACF0C900073A2D6 /* ListView.swift */,
+				221A09C22B0EEC04003BECC2 /* ListSwipeActionsView.swift */,
+				221A09C62B0EF3F2003BECC2 /* ListBadgesView.swift */,
+				224DA65A2B1629BF003150BD /* GroupView.swift */,
 				229923262ACF1C1E0073A2D6 /* AlertView.swift */,
 				229923282ACF1F920073A2D6 /* ActionSheetView.swift */,
 				22708C182ACFC47D00CDF7C5 /* ContextMenuView.swift */,
+				224DA65E2B16307F003150BD /* MenuView.swift */,
 				22708C1A2ACFD5D300CDF7C5 /* TextFieldView.swift */,
 				22708C1C2ACFDA9E00CDF7C5 /* TextEditorView.swift */,
+				221A09C82B0EFCDF003BECC2 /* FocusStateView.swift */,
+				221A09CA2B0F16E4003BECC2 /* KeyBoardCustomSubmitButtonView.swift */,
 				22708C1E2ACFDE8A00CDF7C5 /* ToggleView.swift */,
 				22708C202ACFE03600CDF7C5 /* PickerView.swift */,
 				22D57DB02AD0F42E00174A33 /* StepperView.swift */,
 				22D57DB22AD0F5CF00174A33 /* SliderView.swift */,
 				22D57DB42AD0F90F00174A33 /* TabView$PageTabViewStyle.swift */,
+				221A09C42B0EF33A003BECC2 /* TabViewBadgesView.swift */,
 				22D57DB82AD0FFFA00174A33 /* OnAppear&OnDisappear.swift */,
 				22D57DBA2AD12B5800174A33 /* Iflet&Guard.swift */,
 				22D57DBC2AD130D000174A33 /* TabGesture.swift */,
@@ -298,17 +355,28 @@
 				22708C192ACFC47D00CDF7C5 /* ContextMenuView.swift in Sources */,
 				229922F32ACE8AC40073A2D6 /* IconsView.swift in Sources */,
 				22D57DBB2AD12B5800174A33 /* Iflet&Guard.swift in Sources */,
+				22F209E72B16DF19008167A4 /* AnyLayoutView.swift in Sources */,
+				224DA65F2B16307F003150BD /* MenuView.swift in Sources */,
+				221A09C32B0EEC04003BECC2 /* ListSwipeActionsView.swift in Sources */,
 				229922DE2ACE73DF0073A2D6 /* ContentView.swift in Sources */,
 				229923212ACEFC930073A2D6 /* PopverView.swift in Sources */,
+				221A09BF2B0C81FD003BECC2 /* TextSelectionView.swift in Sources */,
 				22D57DBD2AD130D000174A33 /* TabGesture.swift in Sources */,
 				2299230D2ACEE0900073A2D6 /* @StateView.swift in Sources */,
+				221A09CD2B0F1C2F003BECC2 /* NavigationStackView.swift in Sources */,
 				229922FD2ACEA34A0073A2D6 /* PaddingView.swift in Sources */,
+				221A09CB2B0F16E4003BECC2 /* KeyBoardCustomSubmitButtonView.swift in Sources */,
 				229922EF2ACE83DB0073A2D6 /* ColorsView.swift in Sources */,
 				2299231B2ACEF0830073A2D6 /* AnimationTimingView.swift in Sources */,
+				224DA65B2B1629BF003150BD /* GroupView.swift in Sources */,
+				221A09BD2B0C5C0E003BECC2 /* BackgroundAndMaterialsView.swift in Sources */,
 				22D57DC12AD1333200174A33 /* @StateObject&@ObservableObject&@EnviromentObject.swift in Sources */,
 				229923052ACEB4AB0073A2D6 /* Scroll&LazyStacksView.swift in Sources */,
 				229922F72ACE90B80073A2D6 /* FrameView.swift in Sources */,
+				22EA26062B1432EB00C696E7 /* NavigationToolBarView.swift in Sources */,
 				229923032ACEB04B0073A2D6 /* ForEachView.swift in Sources */,
+				22F209E92B16EF6B008167A4 /* ViewThatFitsView.swift in Sources */,
+				221A09C92B0EFCDF003BECC2 /* FocusStateView.swift in Sources */,
 				22701BEB2B0B0D45003A470D /* IntroView.swift in Sources */,
 				229922F92ACE92AF0073A2D6 /* Background&OverlayView.swift in Sources */,
 				229923272ACF1C1E0073A2D6 /* AlertView.swift in Sources */,
@@ -319,25 +387,33 @@
 				229923012ACEABA50073A2D6 /* InitalizerView.swift in Sources */,
 				229923072ACEB8210073A2D6 /* LazyGridView.swift in Sources */,
 				229922FB2ACE988A0073A2D6 /* StacksView.swift in Sources */,
+				22EA260B2B145E9B00C696E7 /* SafeAreaInsetsView.swift in Sources */,
 				22D57DB92AD0FFFA00174A33 /* OnAppear&OnDisappear.swift in Sources */,
 				2299231D2ACEF36F0073A2D6 /* TransitionsView.swift in Sources */,
 				22708C1D2ACFDA9E00CDF7C5 /* TextEditorView.swift in Sources */,
 				229923292ACF1F920073A2D6 /* ActionSheetView.swift in Sources */,
 				22701BEF2B0B58B6003A470D /* ProfileView.swift in Sources */,
 				22D57DB12AD0F42E00174A33 /* StepperView.swift in Sources */,
+				221A09C12B0C84ED003BECC2 /* ButtonStyleView.swift in Sources */,
 				229922F52ACE8D050073A2D6 /* ImagesView.swift in Sources */,
 				229923152ACEE95F0073A2D6 /* ConditionalStatements.swift in Sources */,
 				22708C1B2ACFD5D300CDF7C5 /* TextFieldView.swift in Sources */,
+				229DC7662B0C4D3800B5BA64 /* AsyncImageView.swift in Sources */,
+				221A09C72B0EF3F2003BECC2 /* ListBadgesView.swift in Sources */,
 				229923172ACEEBED0073A2D6 /* TernaryOperators.swift in Sources */,
 				229922DC2ACE73DF0073A2D6 /* SwiftUIBasicApp.swift in Sources */,
 				229923192ACEEDA90073A2D6 /* AnimationsView.swift in Sources */,
 				229923092ACED9D50073A2D6 /* SafeAreaView.swift in Sources */,
+				224DA65D2B162AC8003150BD /* AnimationsiOS16.swift in Sources */,
 				229922F12ACE87510073A2D6 /* GradientsView.swift in Sources */,
 				22D57DB52AD0F90F00174A33 /* TabView$PageTabViewStyle.swift in Sources */,
 				2299231F2ACEF71B0073A2D6 /* SheetsView.swift in Sources */,
 				2299230B2ACEDDF60073A2D6 /* ButtonsView.swift in Sources */,
 				229923232ACF04E60073A2D6 /* NavigationView&Link.swift in Sources */,
 				2299230F2ACEE3590073A2D6 /* ExtractFuncs&Views.swift in Sources */,
+				224DA6612B1632B2003150BD /* NativePopoverView.swift in Sources */,
+				221A09C52B0EF33A003BECC2 /* TabViewBadgesView.swift in Sources */,
+				22EA26092B14444800C696E7 /* ResizeableSheetView.swift in Sources */,
 				22D57DF22AD7FBC600174A33 /* @AppStorageView.swift in Sources */,
 				22D57DB32AD0F5CF00174A33 /* SliderView.swift in Sources */,
 				22708C212ACFE03600CDF7C5 /* PickerView.swift in Sources */,
@@ -482,9 +558,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -496,7 +571,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -521,9 +596,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -535,7 +609,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -25,7 +25,12 @@ struct NavigationView_Link: View {
 //            .navigationBarBackButtonHidden(true) // 返回按钮隐藏
 //            .navigationBarHidden(true) // 标题指定为空则自动隐藏
             .navigationBarItems(
-                leading: Image(systemName: "person"),
+                leading:
+                    HStack {
+                        Image(systemName: "person.fill")
+                        Image(systemName: "flame.fill")
+                    }
+                ,
                 trailing:
                     NavigationLink(
                         destination: NavigationContent(),
